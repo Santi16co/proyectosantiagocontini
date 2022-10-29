@@ -1,0 +1,246 @@
+
+
+ body{
+    background-color:rgb(201, 228, 106);
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    line-height: 3em;
+     }
+
+ header{
+    text-align: center;
+    background-size: contain;
+
+ }
+
+ main{
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     background-size:contain;
+     width: 100%;
+     text-align: center; 
+     word-spacing: 3em;
+     text-decoration: solid;
+    }
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+    #parrafoarriba{
+        word-spacing: 0.25em;
+        font-size: 40px;
+        background-color: rgb(201, 228, 106);
+        background-size: contain;
+        font-family: 'Amatic SC', bold;;
+        display: contents;
+    }
+    section{
+        display:contents;
+    }
+#Home{
+    word-spacing: normal;
+}
+#NuestrosSabores{
+    word-spacing: 0.25em;
+}
+#HaceTuPedido{
+    word-spacing: 0.25em;
+
+}
+#QuienesSomos{
+    word-spacing: 0.25em;
+
+}
+#DondeEncontrarnos{
+    word-spacing: 0.25em;
+}
+ nav{
+     text-align: center;
+     background-size: contain;
+     justify-content: center;
+
+
+ }
+
+    p{
+        align-items: center;
+        text-align: center;
+    }
+
+ .imagenlogo 
+        div{
+    box-sizing: content-box;
+    display:inline-block;
+    background-size: contain;
+    
+    
+ }
+ .parrafo
+  p{
+    font-size: 25px;
+    word-spacing: 0.25em;
+    color:rgb(168, 138, 55); 
+    font-family: 'Amatic SC', cursive;;
+    font-size: 60px;
+    text-decoration: solid;
+    }
+    .parrafoarriba
+        {
+        align-content: center;
+        width: max-content;
+        text-align: center;
+        object-fit: contain;
+        background-color:rgb(201, 228, 106);
+        background-size: contain;
+        width: 100%;
+        font-size: 25px;
+        word-spacing: 0.25em;
+        font-family: 'Amatic SC', cursive;;
+        font-size: 60px;
+    text-decoration: underline;
+    display: contents;
+    }
+    .whatsapp
+    {
+            height: 100px;
+            width: 100px;
+    }
+ a{
+ font-size: 25px;
+ color:rgb(168, 138, 55);
+ font-family: 'Amatic SC', cursive;;
+ font-style: normal;
+ text-decoration: none;
+ text-align: center;
+
+ }
+
+ .Sabores{
+    display:grid;    
+
+    grid-template-areas:"a1 a2 "
+                        "a3 a4";
+
+
+    justify-content: center;
+    align-content: space-around;
+ }
+ .SaboresImg {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(70%);
+    border-radius: 5%;
+    margin-bottom: 1%;
+    padding-bottom: 0%;
+ }
+ .Sabores
+ p{
+    color: white;
+    font-family: 'Amatic SC', cursive;;
+    font-size: 20px;
+    margin-top: 0%;
+    padding-top: 0%;
+ }
+
+ .SaboresImg:hover{
+    filter: brightness(100%);
+ }
+
+
+ a:hover{
+     color: rgb(192, 236, 134);
+ }
+ div{
+    display: inline-block;
+    align-content: center;
+    background-size: contain;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+    
+    .imagen {
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+    }
+    .imagenquienesomos {
+        width: 100%;
+        object-fit: contain;
+        filter: brightness(70%);
+
+    }
+    .imagenquienesomos:hover{
+        filter: brightness(100%);
+    }
+    .iconoig
+            { 
+        height: 100px;
+        width: 100px;
+        justify-content: space-around;
+        padding-right: 10%;
+        border-right: 10%;
+        padding-left: 10%;
+    }
+
+
+    #mapa{
+        align-content: center;
+        text-align: center;
+        object-fit: contain;
+        background-color:rgb(201, 228, 106);
+        padding-top: 20px;
+    }
+
+ /* Titulos */
+
+ h1{
+     color:white;
+     text-align: center;
+     font-family: 'Amatic SC', cursive;;
+     font-size:60px;
+     text-decoration: underline;
+     padding: 0px;
+     margin: 0px;
+ }
+ 
+ h2{
+     color: white;
+     text-align: center;
+     font-family: 'Amatic SC', cursive;
+     font-size: 25px;
+     padding: 0px;
+     margin: 0px;
+ }
+
+ .parrafoquienes {
+    background-color: rgb(201, 228, 106);
+    color: rgb(168, 138, 55);
+     text-align: center;
+     font-family: 'Amatic SC', cursive;
+     justify-content: center;
+     font-size: 35px;
+     padding: 0px;
+     margin: 0px;
+     word-spacing: 0.25em;
+     line-height: 1em;
+ }
+
+ footer{
+
+     color:white;
+     font-size:40px;
+     text-align: center;
+     font-family: 'Amatic SC', cursive;
+     background-size: contain;
+     box-sizing: content-box;
+     line-height: 00.25em;
+ }
+
